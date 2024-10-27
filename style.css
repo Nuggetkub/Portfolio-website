@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.section-landing {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 135px 20px;
+}
+
+.box {
+    position: relative;
+}
+
+.Image-Nugget {
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 750px;
+
+}
+
+.about {
+    color: black;
+    font-size: 30px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 80px;
+    left: 990px;
+}
+
+.about-info {
+    color: black;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 140px;
+    left: 990px;
+}
+
+.box-ed {
+    position: relative;
+}
+
+.Image-school {
+    width: 200px;
+    position: absolute;
+    top: 480px;
+    left: 990px;
+
+}
+
+.education {
+    color: black;
+    font-size: 30px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 550px;
+    left: 700px;
+}
+
+.education-info {
+    color: black;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 610px;
+    left: 700px;
+}
+
+.box-skill {
+    position: relative;
+}
+
+.Image-python {
+    width: 45px;
+    position: absolute;
+    top: 1030px;
+    left: 950px;
+}
+
+.Image-c {
+    width: 40px;
+    position: absolute;
+    top: 1070px;
+    left: 950px;
+}
+
+.Image-cs {
+    width: 73px;
+    position: absolute;
+    top: 1100px;
+    left: 935px;
+}
+
+.Image-arduino {
+    width: 40px;
+    position: absolute;
+    top: 1160px;
+    left: 950px;
+}
+
+.Image-unity {
+    width: 40px;
+    position: absolute;
+    top: 1190px;
+    left: 950px;
+}
+
+.Image-android-studio {
+    width: 50px;
+    position: absolute;
+    top: 1230px;
+    left: 948px;
+
+}
+
+.graph1 {
+    background-color: #007bff;
+    padding: 8px 60px;
+    position: absolute;
+    top: 1045px;
+    left: 1050px;
+}
+
+.graph2 {
+    background-color: #007bff;
+    padding: 8px 40px;
+    position: absolute;
+    top: 1085px;
+    left: 1050px;
+}
+
+.graph3 {
+    background-color: #007bff;
+    padding: 8px 30px;
+    position: absolute;
+    top:  1125px;
+    left: 1050px;
+}
+
+.graph4 {
+    background-color: #007bff;
+    padding: 8px 20px;
+    position: absolute;
+    top: 1165px;
+    left: 1050px;
+}
+
+.graph5 {
+    background-color: #007bff;
+    padding: 8px 50px;
+    position: absolute;
+    top: 1204px;
+    left: 1050px;
+}
+
+.graph6 {
+    background-color: #007bff;
+    padding: 8px 30px;
+    position: absolute;
+    top: 1245px;
+    left: 1050px;
+}
+
+.skill {
+    color: black;
+    font-size: 30px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 970px;
+    left: 700px;
+}
+
+.skill-info {
+    color: black;
+    font-size: 25px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 1030px;
+    left: 720px;
+}
+
+.box-contact {
+    position: relative;
+}
+
+.coutact {
+    color: black;
+    font-size: 30px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+}
+
+.contact-info {
+    color: black;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 1570px;
+    left: 700px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2000px;
+}
